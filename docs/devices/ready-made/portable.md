@@ -173,7 +173,7 @@ breadcrumbs: ["База знаний Meshtastic", "Meshtastic устройств
 Стоимость: \~6.000p
 
 Купить:
-- [Aliexpress]([https://ali.click/98zdoe?erid=2SDnjeoPfQB](https://trk.ppdu.ru/click/i33IoX8q?erid=2SDnjcM2X3K&tl=https://aliexpress.ru/item/1005009183237292.html?af=1954_179299&sku_id=12000048223015139))
+- [Aliexpress](https://trk.ppdu.ru/click/i33IoX8q?erid=2SDnjcM2X3K&tl=https://aliexpress.ru/item/1005009183237292.html?af=1954_179299&sku_id=12000048223015139)
 
 :::
 
