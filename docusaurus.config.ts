@@ -66,6 +66,8 @@ const config: Config = {
             keywords: ['favorite'],
             extendDefaults: true,
           },
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
         },
         blog: false,
         theme: {
