@@ -67,6 +67,7 @@ breadcrumbs: ["База знаний Meshtastic", "Русскоязычные с
 | Пенза | [@meshtastic_penza](https://t.me/meshtastic_penza) |
 | Пермь | [@Meshtastic_perm](https://t.me/Meshtastic_perm) |
 | Петрозаводск | [@meshtastic_petrozavodsk](https://t.me/meshtastic_petrozavodsk) |
+| Подольск | [@meshtastic_podolsk](https://t.me/meshtastic_podolsk) |
 | Пушкино | [@meshtastic_pushkino](https://t.me/meshtastic_pushkino) |
 | Ростов-на-Дону | [@meshtastic_rnd](https://t.me/meshtastic_rnd) |
 | Рязань | [@meshtastic_rzn](https://t.me/meshtastic_rzn) |
