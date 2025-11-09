@@ -25,7 +25,22 @@ const config: Config = {
         media: '(prefers-color-scheme: dark)',
       },
     },
-    // Algolia verification meta removed since DocSearch disabled
+    {
+      tagName: 'script',
+      attributes: {
+        type: 'application/ld+json',
+      },
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'SiteNavigationElement',
+        name: ['База знаний', 'Контрибьютинг', 'О нас'],
+        url: [
+          'https://wiki.meshworks.ru/',
+          'https://wiki.meshworks.ru/wiki/how-to-edit',
+          'https://wiki.meshworks.ru/about',
+        ],
+      }),
+    },
   ],
   future: {
     v4: true,
@@ -128,8 +143,23 @@ const config: Config = {
   ],
   themeConfig: {
     image: 'img/logo-light.png',
+    metadata: [
+      {
+        name: 'description',
+        content:
+          'MeshWorks Wiki — русскоязычная база знаний о Meshtastic, LoRa mesh-сетях и устройствах для автономной связи.',
+      },
+      {
+        name: 'keywords',
+        content:
+          'meshtastic, meshworks, lora mesh, loRa сеть, автономная связь, wiki meshtastic, инструкции lora',
+      },
+    ],
     colorMode: {
       respectPrefersColorScheme: true,
+    },
+    breadcrumbs: {
+      homePageLabel: 'MeshWorks',
     },
     // Algolia is disabled; using local search plugin
     navbar: {

@@ -4,6 +4,7 @@ sidebar_label: Введение в Meshtastic
 sidebar_position: 1
 slug: /
 breadcrumbs: ["База знаний Meshtastic", "Введение в Meshtastic"]
+description: "MeshWorks Wiki — базовое введение в технологию Meshtastic: цели, возможности и примеры использования автономных LoRa mesh-сетей."
 ---
 ![](/img/wiki/intro-overview.png)
 

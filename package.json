@@ -15,7 +15,7 @@
     "typecheck": "tsc",
     "lint": "tsc --noEmit && npm run lint:mdx",
     "check": "npm run lint && npm run build",
-    "lint:mdx": "eslint docs src/pages --ext .md,.mdx"
+    "lint:mdx": "eslint docs static-pages --ext .md,.mdx"
   },
   "dependencies": {
     "@docusaurus/core": "3.9.2",
