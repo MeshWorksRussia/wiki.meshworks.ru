@@ -2,10 +2,9 @@
 title: Сценарии применения
 sidebar_label: Сценарии применения
 sidebar_position: 2
-outline_url: https://outline.meshworks.ru/doc/scenarii-primeneniya-wBgbw8PFNP
 breadcrumbs: ["База знаний Meshtastic", "Введение в Meshtastic", "Сценарии применения"]
 ---
-![](/img/outline/les-32469c04.png)
+![](/img/wiki/intro-use-cases.png)
 
 
 **Meshtastic** используется в самых разных областях — от туристических походов и автопутешествий до аварийной связи и поддержки локальных сообществ. Ниже приведены наиболее распространённые сценарии применения.

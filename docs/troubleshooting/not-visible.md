@@ -2,7 +2,6 @@
 title: Вижу ноды, не видят меня
 sidebar_label: Вижу ноды, не видят меня
 sidebar_position: 1
-outline_url: https://outline.meshworks.ru/doc/vizhu-nody-ne-vidyat-menya-ymP5f0MYhq
 breadcrumbs: ["База знаний Meshtastic", "Решение проблем", "Вижу ноды, не видят меня"]
 ---
 ## Почему вы видите сообщения в чате, но не можете отправлять свои

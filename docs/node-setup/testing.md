@@ -2,7 +2,6 @@
 title: Проверка работы
 sidebar_label: Проверка работы
 sidebar_position: 4
-outline_url: https://outline.meshworks.ru/doc/proverka-raboty-cx3hsZPXMq
 breadcrumbs: ["База знаний Meshtastic", "Настройка ноды", "Проверка работы"]
 ---
 ## Проверка работоспособности ноды и связи с другими устройствами в Meshtastic

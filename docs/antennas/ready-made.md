@@ -2,7 +2,6 @@
 title: Готовые антенны
 sidebar_label: Готовые антенны
 sidebar_position: 1
-outline_url: https://outline.meshworks.ru/doc/gotovye-antenny-wBjrfD6YKu
 breadcrumbs: ["База знаний Meshtastic", "Антенны", "Готовые антенны"]
 ---
 :::favorite

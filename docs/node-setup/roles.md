@@ -2,7 +2,6 @@
 title: Роли
 sidebar_label: Роли
 sidebar_position: 3
-outline_url: https://outline.meshworks.ru/doc/roli-pfkhLLbUjh
 breadcrumbs: ["База знаний Meshtastic", "Настройка ноды", "Роли"]
 ---
 ## Выбор подходящей Роли для вашей ноды

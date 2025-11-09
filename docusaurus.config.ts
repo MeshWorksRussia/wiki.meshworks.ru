@@ -72,7 +72,7 @@ const config: Config = {
     ],
   ],
   themeConfig: {
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/logo-light.png',
     colorMode: {
       respectPrefersColorScheme: true,
     },
@@ -89,7 +89,13 @@ const config: Config = {
           to: '/',
           position: 'left',
           label: 'База знаний',
-          activeBaseRegex: '^(?!/about).*$',
+          activeBaseRegex: '^(?!/(?:about|wiki)).*$',
+        },
+        {
+          to: '/wiki/how-to-edit',
+          position: 'left',
+          label: 'Контрибьютинг',
+          activeBaseRegex: '^/wiki/how-to-edit/?$',
         },
         {
           to: '/about',

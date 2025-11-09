@@ -3,10 +3,9 @@ slug: /devices
 title: Meshtastic устройства
 sidebar_label: Meshtastic устройства
 sidebar_position: 2
-outline_url: https://outline.meshworks.ru/doc/meshtastic-ustrojstva-CsP4Mt5EoB
 breadcrumbs: ["База знаний Meshtastic", "Meshtastic устройства"]
 ---
-![](/img/outline/les-e67e2c7c.png)
+![](/img/wiki/devices-overview.png)
 
 ## **Готовые и DIY-ноды Meshtastic — в чём разница**
 

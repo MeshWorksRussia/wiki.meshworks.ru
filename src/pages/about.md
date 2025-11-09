@@ -1,7 +1,7 @@
 ---
 title: О нас
 sidebar_label: ℹ️ О MeshWorks
-sidebar_position: 99
+sidebar_position: 98
 slug: /about
 ---
 

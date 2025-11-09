@@ -3,7 +3,6 @@ slug: /troubleshooting
 title: Решение проблем
 sidebar_label: Решение проблем
 sidebar_position: 5
-outline_url: https://outline.meshworks.ru/doc/reshenie-problem-IyrDxK4XgO
 breadcrumbs: ["База знаний Meshtastic", "Решение проблем"]
 ---
 В этом разделе собраны наиболее частые неисправности и затруднения, с которыми сталкиваются пользователи Meshtastic, а также проверенные способы их решения.

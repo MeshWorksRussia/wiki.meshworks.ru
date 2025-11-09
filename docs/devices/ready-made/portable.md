@@ -2,7 +2,6 @@
 title: Портативные
 sidebar_label: Портативные
 sidebar_position: 1
-outline_url: https://outline.meshworks.ru/doc/portativnye-8N861Qlu1d
 breadcrumbs: ["База знаний Meshtastic", "Meshtastic устройства", "Готовые ноды", "Портативные"]
 ---
 :::favorite
@@ -23,7 +22,7 @@ breadcrumbs: ["База знаний Meshtastic", "Meshtastic устройств
 
 :::
 
- ![](/img/outline/les-2c573c9d.png)
+ ![](/img/wiki/thinknode-m1.png)
 
 ## **ThinkNode M1**
 
@@ -53,7 +52,7 @@ breadcrumbs: ["База знаний Meshtastic", "Meshtastic устройств
 ---
 
 
- ![](/img/outline/1111111111111111-25a6f957.png)
+ ![](/img/wiki/sensecap-t1000e.png)
 
 ## **SenseCAP T1000-E**
 
@@ -85,7 +84,7 @@ breadcrumbs: ["База знаний Meshtastic", "Meshtastic устройств
 
 ---
 
- ![](/img/outline/les-8dda345a.png)
+ ![](/img/wiki/heltec-meshpocket.png)
 
 ## **Heltec MeshPocket**
 
@@ -120,7 +119,7 @@ breadcrumbs: ["База знаний Meshtastic", "Meshtastic устройств
 ---
 
 
- ![](/img/outline/les-bed2c0fd.png)
+ ![](/img/wiki/lilygo-ttgo-t-echo.png)
 
 ## **LILYGO TTGO T-Echo**
 
@@ -151,7 +150,7 @@ breadcrumbs: ["База знаний Meshtastic", "Meshtastic устройств
 
 ---
 
- ![](/img/outline/les-46bb9de5.png)
+ ![](/img/wiki/wio-tracker-l1-pro.png)
 
 ## **Wio Tracker L1 Pro**
 
@@ -181,7 +180,7 @@ breadcrumbs: ["База знаний Meshtastic", "Meshtastic устройств
 
 ---
 
- ![](/img/outline/les-da3001dd.png)
+ ![](/img/wiki/lilygo-t-deck-plus.png)
 
 ## **LILYGO T-Deck Plus**
 
@@ -212,7 +211,7 @@ breadcrumbs: ["База знаний Meshtastic", "Meshtastic устройств
 
 ---
 
- ![](/img/outline/les-f80285cc.png)
+ ![](/img/wiki/t-lora-pager.png)
 
 ## **T-LoRa Pager**
 
@@ -243,7 +242,7 @@ breadcrumbs: ["База знаний Meshtastic", "Meshtastic устройств
 
 ---
 
- ![](/img/outline/18-b095a652.png)
+ ![](/img/wiki/meshtiny-mini-pocket.png)
 
 ## **Meshtiny Meshtastic Mini Pocket**
 

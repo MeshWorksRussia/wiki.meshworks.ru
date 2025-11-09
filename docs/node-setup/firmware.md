@@ -2,7 +2,6 @@
 title: Установка прошивки
 sidebar_label: Установка прошивки
 sidebar_position: 1
-outline_url: https://outline.meshworks.ru/doc/ustanovka-proshivki-8jYLjCcsPY
 breadcrumbs: ["База знаний Meshtastic", "Настройка ноды", "Установка прошивки"]
 ---
 ## Установка прошивки Meshtastic

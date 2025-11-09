@@ -3,10 +3,9 @@ slug: /devices/diy
 title: Самодельные ноды
 sidebar_label: Самодельные ноды
 sidebar_position: 2
-outline_url: https://outline.meshworks.ru/doc/samodelnye-nody-QMUYHfXcTv
 breadcrumbs: ["База знаний Meshtastic", "Meshtastic устройства", "Самодельные ноды"]
 ---
-![](/img/outline/les-7553c722.png)
+![](/img/wiki/diy-overview.png)
 
 В этом разделе мы с вами поговорим о том какие у вас есть варианты для самостоятельной сборки ноды для Meshtastic 
 
@@ -26,7 +25,7 @@ breadcrumbs: ["База знаний Meshtastic", "Meshtastic устройств
 ---
 
 
-## **[ESP32 / ESP32-S3](https://outline.meshworks.ru/s/8590a8b1-bbda-4b87-a475-c46792d46c51/doc/esp-Wf4Kpg4olg)**
+## **[ESP32 / ESP32-S3](/devices/diy/esp)**
 
 Самая распространённая платформа в экосистеме Meshtastic.
 Отличается сочетанием производительности и функциональности.
@@ -50,7 +49,7 @@ breadcrumbs: ["База знаний Meshtastic", "Meshtastic устройств
 
 ---
 
-## **[nRF52840 / nRF52833](https://outline.meshworks.ru/s/8590a8b1-bbda-4b87-a475-c46792d46c51/doc/nrf-RhnshVklqC)**
+## **[nRF52840 / nRF52833](/devices/diy/nrf)**
 
 Платформа для энергоэффективных и носимых устройств.
 Часто используется в нодах с дисплеем E-ink и длительной автономной работой.
@@ -73,7 +72,7 @@ breadcrumbs: ["База знаний Meshtastic", "Meshtastic устройств
 
 ---
 
-## **[RP2040 (Raspberry Pi Pico / Pico W)](https://outline.meshworks.ru/s/8590a8b1-bbda-4b87-a475-c46792d46c51/doc/rp2040-PCi1ITmxX3)**
+## **RP2040 (Raspberry Pi Pico / Pico W)**
 
 Дешёвое и доступное решение, пока не сильно популярное из за новизны
 

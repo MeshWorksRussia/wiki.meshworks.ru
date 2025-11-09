@@ -2,7 +2,6 @@
 title: Солнечные
 sidebar_label: Солнечные
 sidebar_position: 2
-outline_url: https://outline.meshworks.ru/doc/solnechnye-06CBhVraoo
 breadcrumbs: ["База знаний Meshtastic", "Meshtastic устройства", "Готовые ноды", "Солнечные"]
 ---
 :::favorite
@@ -17,7 +16,7 @@ breadcrumbs: ["База знаний Meshtastic", "Meshtastic устройств
 
 :::
 
- ![](/img/outline/les-da6c6638.png)
+ ![](/img/wiki/d5-mini-solar-kit.png)
 
 # D5 Mini Solar Kit (Heltec V3)
 
@@ -50,7 +49,7 @@ breadcrumbs: ["База знаний Meshtastic", "Meshtastic устройств
 
 ## 
 
- ![](/img/outline/les-d653e718.png)
+ ![](/img/wiki/sensecap-solar-node.png)
 
 ## **SenseCAP Solar Node**
 

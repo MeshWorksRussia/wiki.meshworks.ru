@@ -2,10 +2,9 @@
 title: Принципы работы сети
 sidebar_label: Принципы работы сети
 sidebar_position: 1
-outline_url: https://outline.meshworks.ru/doc/principy-raboty-seti-g68r8mXJqn
 breadcrumbs: ["База знаний Meshtastic", "Введение в Meshtastic", "Принципы работы сети"]
 ---
-![](/img/outline/2s-c104e6a8.png)
+![](/img/wiki/intro-network-basics.png)
 
 
 **Mesh-сеть** — это тип радиосети, в которой каждое устройство может обмениваться данными не только напрямую, но и через другие устройства. 

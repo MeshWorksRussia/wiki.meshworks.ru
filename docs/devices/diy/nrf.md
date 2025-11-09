@@ -2,7 +2,6 @@
 title: NRF (BT)
 sidebar_label: NRF (BT)
 sidebar_position: 2
-outline_url: https://outline.meshworks.ru/doc/nrf-bt-RhnshVklqC
 breadcrumbs: ["База знаний Meshtastic", "Meshtastic устройства", "Самодельные ноды", "NRF (BT)"]
 ---
 :::favorite
@@ -18,7 +17,7 @@ breadcrumbs: ["База знаний Meshtastic", "Meshtastic устройств
 :::
 
 
-##  ![](/img/outline/les-bea0b40f.png)**Heltec T114**
+##  ![](/img/wiki/heltec-t114.png)**Heltec T114**
 
 Готовое решение на базе **nRF52840**, оснащённое **TFT-дисплеем 1.14″** и **GPS-модулем** (при выборе комплекта с GPS)
 Корпус присутствует в комплекте
@@ -42,7 +41,7 @@ breadcrumbs: ["База знаний Meshtastic", "Meshtastic устройств
 
 ---
 
- ![](/img/outline/logo-statiyu-gorod-node-5af0b0d5.png)
+ ![](/img/wiki/heltec-t114-naked.png)
 
 ## Heltec T114 Naked
 
@@ -68,7 +67,7 @@ breadcrumbs: ["База знаний Meshtastic", "Meshtastic устройств
 
 ---
 
- ![](/img/outline/logo-statiyu-gorod-node-79d02b71.png)
+ ![](/img/wiki/wio-tracker-l1-eink.png)
 
 ## **Wio Tracker L1 E-ink**
 
@@ -92,7 +91,7 @@ breadcrumbs: ["База знаний Meshtastic", "Meshtastic устройств
 
 ---
 
-##  ![](/img/outline/19-df9e67ef.png)**Heltec LoRa Wireless Paper**
+##  ![](/img/wiki/heltec-wireless-paper.png)**Heltec LoRa Wireless Paper**
 
 Готовое решение на базе **nRF52840** с радиомодулем **SX1262** и **E-Ink дисплеем 2.9″**. Отличается сверхнизким энергопотреблением и отличной читаемостью при любом освещении. Благодаря тонкому корпусу и малому весу подходит для **мобильного и автономного использования**.
 

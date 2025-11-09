@@ -3,10 +3,9 @@ title: Введение в Meshtastic
 sidebar_label: Введение в Meshtastic
 sidebar_position: 1
 slug: /
-outline_url: https://outline.meshworks.ru/doc/vvedenie-v-meshtastic-qA5NmOJN81
 breadcrumbs: ["База знаний Meshtastic", "Введение в Meshtastic"]
 ---
-![](/img/outline/f95e43d1-6f31-4071-8235-dcfd2b7c0b86-2394e050.png)
+![](/img/wiki/intro-overview.png)
 
 
 **Meshtastic** — это открытая радиосистема, с помощью которой можно построить собственную автономную сеть передачи данных. Она не требует подключения к мобильным операторам, Wi-Fi или интернету и позволяет людям обмениваться сообщениями даже там, где нет сотовой связи.

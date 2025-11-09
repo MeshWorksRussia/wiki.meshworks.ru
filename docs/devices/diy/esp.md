@@ -2,7 +2,6 @@
 title: ESP (WIFI, BT)
 sidebar_label: ESP (WIFI, BT)
 sidebar_position: 1
-outline_url: https://outline.meshworks.ru/doc/esp-wifi-bt-Wf4Kpg4olg
 breadcrumbs: ["База знаний Meshtastic", "Meshtastic устройства", "Самодельные ноды", "ESP (WIFI, BT)"]
 ---
 :::favorite
@@ -18,7 +17,7 @@ breadcrumbs: ["База знаний Meshtastic", "Meshtastic устройств
 :::
 
 
- ![](/img/outline/les-9bb2c929.png)
+ ![](/img/wiki/heltec-wifi-lora32-v3.png)
 
 ## **Heltec WiFi LoRa 32 (V3)**
 
@@ -47,7 +46,7 @@ breadcrumbs: ["База знаний Meshtastic", "Meshtastic устройств
 ---
 
 
- ![](/img/outline/les-682ab07e.png)
+ ![](/img/wiki/lilygo-ttgo-t-beam.png)
 
 ## **LILYGO TTGO T-Beam**
 
@@ -76,7 +75,7 @@ breadcrumbs: ["База знаний Meshtastic", "Meshtastic устройств
 
 ---
 
- ![](/img/outline/les-df30f926.png)
+ ![](/img/wiki/heltec-wireless-stick-lite.png)
 
 ## **Heltec Wireless Stick Lite / Mesh Nod**
 
@@ -105,7 +104,7 @@ breadcrumbs: ["База знаний Meshtastic", "Meshtastic устройств
 
 ---
 
- ![](/img/outline/20-c8518813.png)
+ ![](/img/wiki/heltec-stick-gps.png)
 
 ## **Heltec Stick /GPS**
 
@@ -131,7 +130,7 @@ breadcrumbs: ["База знаний Meshtastic", "Meshtastic устройств
 
 ---
 
- ![](/img/outline/les-2c300e53.png)
+ ![](/img/wiki/lilygo-lora32-t3.png)
 
 ## **LoRa 32 LILYGO / LILYGO T3 S3**
 
@@ -163,7 +162,7 @@ breadcrumbs: ["База знаний Meshtastic", "Meshtastic устройств
 
 ---
 
- ![](/img/outline/1234-349f2739.png)
+ ![](/img/wiki/heltec-wireless-stick-lite-v4.png)
 
 ## **Heltec V4 / Heltec Wireless Stick Lite V4** 
 
@@ -195,7 +194,7 @@ breadcrumbs: ["База знаний Meshtastic", "Meshtastic устройств
 
 ---
 
- ![](/img/outline/hel-e2973ae4.png)
+ ![](/img/wiki/heltec-v4-case.png)
 
 
 ## **Heltec V4 + Case**

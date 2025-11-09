@@ -3,12 +3,11 @@ slug: /antennas
 title: Антенны
 sidebar_label: Антенны
 sidebar_position: 3
-outline_url: https://outline.meshworks.ru/doc/antenny-6hjxYIR9RK
 breadcrumbs: ["База знаний Meshtastic", "Антенны"]
 ---
 # **Типы антенн для LoRa / Meshtastic**
 
- ![](/img/outline/les-2ecbfd96.png)
+ ![](/img/wiki/antennas-overview.png)
 
 В этом разделе мы разберём, какие антенны используются в сетях Meshtastic, и чем они отличаются по характеристикам и области применения.
 
@@ -25,7 +24,7 @@ breadcrumbs: ["База знаний Meshtastic", "Антенны"]
 
 ---
 
- ![](/img/outline/les-5debcbae.png)
+ ![](/img/wiki/antenna-monopole.png)
 
 ## **Монопольная антенна (Штырь)**
 
@@ -49,7 +48,7 @@ breadcrumbs: ["База знаний Meshtastic", "Антенны"]
 
 ---
 
- ![](/img/outline/les-7b32f49d.png)
+ ![](/img/wiki/antenna-dipole.png)
 
 ## **Дипольная антенна (Dipole)**
 
@@ -73,7 +72,7 @@ breadcrumbs: ["База знаний Meshtastic", "Антенны"]
 
 ---
 
- ![](/img/outline/les-26b10f92.png)
+ ![](/img/wiki/antenna-collinear.png)
 
 ## **Коллинеарная антенна (Collinear)**
 
@@ -97,7 +96,7 @@ breadcrumbs: ["База знаний Meshtastic", "Антенны"]
 
 ---
 
- ![](/img/outline/les-ee08beb7.png)
+ ![](/img/wiki/antenna-yagi.png)
 
 ## **Яги (Yagi–Uda)**
 
@@ -122,7 +121,7 @@ breadcrumbs: ["База знаний Meshtastic", "Антенны"]
 
 ---
 
- ![](/img/outline/les-0be741b7.png)
+ ![](/img/wiki/antenna-moxon.png)
 
 ## **Моксон (Moxon)**
 
@@ -147,7 +146,7 @@ breadcrumbs: ["База знаний Meshtastic", "Антенны"]
 
 ---
 
- ![](/img/outline/les-dbea2683.png)
+ ![](/img/wiki/antenna-jpole.png)
 
 ## **J-Pole антенна (J-образная)**
 
@@ -175,7 +174,7 @@ J-Pole — это вертикальная антенна с питанием п
 
 ---
 
-##  ![](/img/outline/les-05f30c00.png)**Ground Plane (GP)**
+##  ![](/img/wiki/antenna-ground-plane.png)**Ground Plane (GP)**
 
 Простая и эффективная всенаправленная антенна вертикального типа.
 Состоит из одного вертикального излучателя и нескольких наклонённых вниз противовесов (радиалов). Часто используется в любительских и профессиональных радиосетях.

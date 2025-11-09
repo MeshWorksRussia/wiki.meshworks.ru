@@ -2,7 +2,6 @@
 title: Настройка ноды
 sidebar_label: Настройка ноды
 sidebar_position: 2
-outline_url: https://outline.meshworks.ru/doc/nastrojka-nody-IBgLn1IhmE
 breadcrumbs: ["База знаний Meshtastic", "Настройка ноды", "Настройка ноды"]
 ---
 ## Первоначальная настройка ноды

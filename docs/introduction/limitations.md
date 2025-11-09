@@ -2,10 +2,9 @@
 title: Ограничения технологии
 sidebar_label: Ограничения технологии
 sidebar_position: 3
-outline_url: https://outline.meshworks.ru/doc/ogranicheniya-tehnologii-A98ub5jbTl
 breadcrumbs: ["База знаний Meshtastic", "Введение в Meshtastic", "Ограничения технологии"]
 ---
-![](/img/outline/444-1c932a18.png)
+![](/img/wiki/intro-limitations.png)
 
 Несмотря на широкие возможности, Meshtastic имеет ряд технических ограничений, связанных с особенностями протокола LoRa и принципами работы mesh-сетей. Понимание этих нюансов важно для построения стабильной и надёжной сети.
 
