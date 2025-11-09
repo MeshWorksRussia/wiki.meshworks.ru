@@ -70,6 +70,13 @@ const config: Config = {
         language: ['ru', 'en'],
       },
     ],
+    [
+      '@docusaurus/plugin-google-gtag',
+      {
+        trackingID: 'G-4M85P2LD5J',
+        anonymizeIP: true,
+      },
+    ],
   ],
   themeConfig: {
     image: 'img/logo-light.png',
