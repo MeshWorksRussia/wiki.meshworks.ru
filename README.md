@@ -29,7 +29,8 @@ npm start        # dev-сервер на http://localhost:3000/
 | `npm run clear`    | удаляет кеш Docusaurus (`.docusaurus/`) |
 
 ## Как контрибьютить
-Полный процесс описан в [CONTRIBUTING.md](CONTRIBUTING.md) и на https://wiki.meshworks.ru/wiki/how-to-edit.
+Полный процесс описан в [CONTRIBUTING.md](CONTRIBUTING.md) и на https://wiki.meshworks.ru/wiki/how-to-edit.  
+Общие гайдлайны по ведению репозиториев описаны в [docs/git-best-practices.md](docs/git-best-practices.md).
 
 ## CI и деплой
 - `.github/workflows/ci.yml` гоняет `npm run check` на каждом Pull Request и push в `main`.
