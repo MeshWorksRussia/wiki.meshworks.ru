@@ -21,25 +21,23 @@ permissions:
   actions: read
 
 jobs:
-  deploy:
+  deploy_artifact:
     if: >
-      github.event_name == 'workflow_dispatch' ||
-      (github.event_name == 'workflow_run' &&
-       github.event.workflow_run.conclusion == 'success' &&
-       github.event.workflow_run.event == 'push' &&
-       github.event.workflow_run.head_branch == 'main')
+      github.event_name == 'workflow_run' &&
+      github.event.workflow_run.conclusion == 'success' &&
+      github.event.workflow_run.event == 'push' &&
+      github.event.workflow_run.head_branch == 'main'
     runs-on: ubuntu-latest
     env:
-      TARGET_REF: ${{ github.event_name == 'workflow_run' && github.event.workflow_run.head_sha || inputs.ref }}
+      TARGET_REF: ${{ github.event.workflow_run.head_sha }}
     steps:
-      - name: Checkout
+      - name: Checkout safe ref
         uses: actions/checkout@v4
         with:
           ref: ${{ env.TARGET_REF }}
           persist-credentials: false
 
       - name: Download build artifact
-        if: github.event_name == 'workflow_run'
         uses: actions/download-artifact@v4
         with:
           name: wiki-build
@@ -48,7 +46,6 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Prepare build folder from artifact
-        if: github.event_name == 'workflow_run'
         run: |
           rm -rf build
           if [ ! -d build-artifact ]; then
@@ -62,19 +59,68 @@ jobs:
             mv build-artifact build
           fi
 
+      - name: Prepare SSH
+        env:
+          SSH_KEY: ${{ secrets.WIKI_SSH_KEY }}
+          SSH_HOST: ${{ secrets.WIKI_SSH_HOST }}
+          SSH_USER: ${{ secrets.WIKI_SSH_USER }}
+          SSH_PORT: ${{ secrets.WIKI_SSH_PORT || '22' }}
+        run: |
+          if [ -z "$SSH_KEY" ] || [ -z "$SSH_HOST" ] || [ -z "$SSH_USER" ]; then
+            echo "Missing SSH secrets (WIKI_SSH_KEY/HOST/USER)" >&2
+            exit 1
+          fi
+          mkdir -p ~/.ssh
+          echo "$SSH_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -p "$SSH_PORT" "$SSH_HOST" >> ~/.ssh/known_hosts
+          {
+            echo "Host wiki-prod"
+            echo "  HostName $SSH_HOST"
+            echo "  User $SSH_USER"
+            echo "  Port $SSH_PORT"
+            echo "  IdentityFile ~/.ssh/id_rsa"
+            echo "  StrictHostKeyChecking yes"
+          } >> ~/.ssh/config
+
+      - name: Sync sources to server
+        run: |
+          rsync -az --delete \
+            --exclude '.git' \
+            --exclude '.github' \
+            --exclude '.docusaurus' \
+            --exclude 'node_modules' \
+            ./ wiki-prod:"$REMOTE_APP_DIR"/
+
+      - name: Restart service
+        run: ssh wiki-prod "cd /opt/compose && sudo ./scripts/bws-compose.sh --compose-args '-f $REMOTE_STACK up -d' wiki"
+
+      - name: Smoke test
+        run: |
+          curl -I --retry 5 --retry-delay 5 "https://wiki.meshworks.ru/?cacheBust=$(date +%s)"
+
+  deploy_manual:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    env:
+      TARGET_REF: ${{ inputs.ref }}
+    steps:
+      - name: Checkout ref
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ env.TARGET_REF }}
+          persist-credentials: false
+
       - name: Setup Node.js
-        if: github.event_name == 'workflow_dispatch'
         uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: 'npm'
 
       - name: Install deps
-        if: github.event_name == 'workflow_dispatch'
         run: npm ci
 
       - name: Build locally (sanity)
-        if: github.event_name == 'workflow_dispatch'
         run: npm run check
 
       - name: Prepare SSH
