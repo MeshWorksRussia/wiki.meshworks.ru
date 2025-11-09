@@ -16,6 +16,10 @@ env:
   REMOTE_APP_DIR: /opt/compose/external/wiki/app
   REMOTE_STACK: /opt/compose/stacks/stack-wiki.yml
 
+permissions:
+  contents: read
+  actions: read
+
 jobs:
   deploy:
     if: >
