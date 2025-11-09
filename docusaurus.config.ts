@@ -89,7 +89,7 @@ const config: Config = {
           to: '/',
           position: 'left',
           label: 'База знаний',
-          activeBaseRegex: '^(?!/about).*$',
+          activeBaseRegex: '^(?!/(?:about|wiki)).*$',
         },
         {
           to: '/wiki/how-to-edit',
