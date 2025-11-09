@@ -48,8 +48,8 @@
 
 ## 5. Деплой (для Maintainers)
 1. Убедитесь, что PR смержен в `main`.
-2. Откройте Actions → `Deploy wiki` → `Run workflow`. Заполните параметры (по умолчанию `main`).
-3. Workflow выполнит `rsync` → `build_wiki.sh` → `bws-compose up -d wiki`. Логи доступны в GitHub Actions.
+2. Откройте Actions → **Deploy wiki** → **Run workflow** (обычно достаточно значения `main`).
+3. Дождитесь завершения workflow (он синхронизирует репозиторий и перезапускает сайт). Логи доступны в GitHub Actions.
 4. Проверьте `https://wiki.meshworks.ru/?cacheBust=$(date +%s)` и сделайте визуальный осмотр ключевых страниц.
 
 Если нужны дополнительные автоматизации (шаблоны для новых страниц, генераторы front matter и т.д.), создайте Issue с описанием идеи.
