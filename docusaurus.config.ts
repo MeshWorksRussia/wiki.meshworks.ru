@@ -116,6 +116,7 @@ const config: Config = {
         routeBasePath: '/',
         showLastUpdateAuthor: true,
         showLastUpdateTime: true,
+        editUrl: 'https://github.com/MeshWorksRussia/wiki.meshworks.ru/edit/main/',
       },
     ],
     [
