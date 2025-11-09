@@ -56,6 +56,7 @@ const sidebars: SidebarsConfig = {
     },
     'community',
     'regulations',
+    'wiki/wiki-docusaurus',
   ],
 };
 
