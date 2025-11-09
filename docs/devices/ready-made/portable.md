@@ -43,7 +43,7 @@ breadcrumbs: ["База знаний Meshtastic", "Meshtastic устройств
 Стоимость: \~5.800p
 
 Купить:
-- [Aliexpress](https://trk.ppdu.ru/click/i33IoX8q?erid=2SDnjcM2X3K&tl=https://aliexpress.ru/item/1005008707135974.html?af=1954_179299&sku_id=12000046331918861)
+- [Aliexpress](https://trk.ppdu.ru/click/i33IoX8q?erid=2SDnjcM2X3K&tl=https://aliexpress.ru/item/1005008707135974.html?sku_id=12000046331918861)
 
 :::
 
@@ -109,7 +109,7 @@ breadcrumbs: ["База знаний Meshtastic", "Meshtastic устройств
 Стоимость: \~7.000p
 
 Купить:
-- [Aliexpress](https://trk.ppdu.ru/click/i33IoX8q?erid=2SDnjcM2X3K&tl=https://aliexpress.ru/item/1005009016165068.html?af=1954_179299&sku_id=12000047587721637)
+- [Aliexpress](https://trk.ppdu.ru/click/i33IoX8q?erid=2SDnjcM2X3K&tl=https://aliexpress.ru/item/1005009016165068.html)
 - [OZON](https://www.ozon.ru/product/meshtastic-heltec-meshpocket-qi2-magnitnyy-vneshniy-akkumulyator-dlya-telefona-a-2447425687/?at=x6tPNPPy4CXP3pEvTX4MJL1u5XkxYQinOn2JmIXQGB2M)
 
 :::
@@ -143,7 +143,7 @@ breadcrumbs: ["База знаний Meshtastic", "Meshtastic устройств
 Стоимость: \~5.000p
 
 Купить:
-- [Aliexpress](https://trk.ppdu.ru/click/i33IoX8q?erid=2SDnjcM2X3K&tl=https://aliexpress.ru/item/1005003026107533.html?af=1954_179299&sku_id=12000037263598521)
+- [Aliexpress](https://trk.ppdu.ru/click/i33IoX8q?erid=2SDnjcM2X3K&tl=https://aliexpress.ru/item/1005003026107533.html?sku_id=12000037263598502)
 
 :::
 
@@ -173,7 +173,7 @@ breadcrumbs: ["База знаний Meshtastic", "Meshtastic устройств
 Стоимость: \~6.000p
 
 Купить:
-- [Aliexpress](https://trk.ppdu.ru/click/i33IoX8q?erid=2SDnjcM2X3K&tl=https://aliexpress.ru/item/1005009183237292.html?af=1954_179299&sku_id=12000048223015139)
+- [Aliexpress](https://trk.ppdu.ru/click/i33IoX8q?erid=2SDnjcM2X3K&tl=https://aliexpress.ru/item/1005009183237292.html)
 
 :::
 
@@ -203,7 +203,7 @@ breadcrumbs: ["База знаний Meshtastic", "Meshtastic устройств
 Стоимость: \~8.000p
 
 Купить:
-- [Aliexpress](https://trk.ppdu.ru/click/i33IoX8q?erid=2SDnjcM2X3K&tl=https://aliexpress.ru/item/1005009074862574.html?af=1954_179299&sku_id=12000047823707772)
+- [Aliexpress](https://trk.ppdu.ru/click/i33IoX8q?erid=2SDnjcM2X3K&tl=https://aliexpress.ru/item/1005009074862574.html?sku_id=12000047823707772)
 
 :::
 
@@ -234,7 +234,7 @@ breadcrumbs: ["База знаний Meshtastic", "Meshtastic устройств
 Стоимость: \~8.000p
 
 Купить:
-- [Aliexpress](https://trk.ppdu.ru/click/i33IoX8q?erid=2SDnjcM2X3K&tl=https://aliexpress.ru/item/1005009782586146.html?af=1954_179299&sku_id=12000050143121884)
+- [Aliexpress](https://trk.ppdu.ru/click/i33IoX8q?erid=2SDnjcM2X3K&tl=https://aliexpress.ru/item/1005009782586146.html?sku_id=12000050143121884)
 
 :::
 
@@ -263,7 +263,7 @@ breadcrumbs: ["База знаний Meshtastic", "Meshtastic устройств
 **Стоимость:** \~5.500 ₽
 
 Купить:
-- [Aliexpress](https://trk.ppdu.ru/click/i33IoX8q?erid=2SDnjcM2X3K&tl=https://aliexpress.ru/item/1005010115422665.html?af=1954_179299&sku_id=12000051474859170)
+- [Aliexpress](https://trk.ppdu.ru/click/i33IoX8q?erid=2SDnjcM2X3K&tl=https://aliexpress.ru/item/1005010115422665.html)
 
 :::
 
