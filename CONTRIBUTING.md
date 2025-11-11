@@ -72,4 +72,3 @@
 
 ## 5. Лицензия
 - Репозиторий распространяется под [CC BY-SA 4.0](https://github.com/MeshWorksRussia/wiki.meshworks.ru/blob/main/LICENSE); русскоязычное описание — в [LICENSE.ru.md](https://github.com/MeshWorksRussia/wiki.meshworks.ru/blob/main/LICENSE.ru.md).
-- Отправляя Pull Request, вы подтверждаете, что имеете право публиковать вклад и согласны на его распространение под CC BY-SA 4.0 (включая существующие и будущие версии wiki).
