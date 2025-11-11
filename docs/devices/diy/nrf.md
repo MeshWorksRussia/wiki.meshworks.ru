@@ -86,24 +86,3 @@ breadcrumbs: ["База знаний Meshtastic", "Meshtastic устройств
 - [Aliexpress](https://trk.ppdu.ru/click/i33IoX8q?erid=2SDnjcM2X3K&tl=https://aliexpress.ru/item/1005009761846970.html)
 
   :::
-
-
-
----
-
-##  ![](/img/wiki/heltec-wireless-paper.png)**Heltec LoRa Wireless Paper**
-
-Готовое решение на базе **nRF52840** с радиомодулем **SX1262** и **E-Ink дисплеем 2.9″**. Отличается сверхнизким энергопотреблением и отличной читаемостью при любом освещении. Благодаря тонкому корпусу и малому весу подходит для **мобильного и автономного использования**.
-
-* **Wi-Fi:** нет
-* **Bluetooth:** есть
-* **GPS:** нет
-
-
-:::success
-Стоимость: \~1.500р
-
-Купить:
-- [Aliexpress](https://trk.ppdu.ru/click/i33IoX8q?erid=2SDnjcM2X3K&tl=https://aliexpress.ru/item/1005007747207784.html?sku_id=12000042077885822)
-
-:::
