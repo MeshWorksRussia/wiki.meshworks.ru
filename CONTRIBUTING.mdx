@@ -1,3 +1,5 @@
+import IdealImage from '@theme/IdealImage';
+
 # Изменения в базе знаний MeshWorks
 
 Спасибо, что помогаете развивать MeshWorks Wiki!  
@@ -45,7 +47,7 @@
   Аналогично работают `:::info`, `:::warning`, `:::note` и т.д.
 
 ### Изображения
-- Кладите файлы в `static/img/<topic>/` и ссылайтесь как `![alt](/img/<topic>/image.png)`.
+- Кладите файлы в `static/img/<topic>/` и ссылайтесь как `<IdealImage img={require('@site/static/img/<topic>/image.png')} alt="alt" className="docImage" />`.
 - Используйте web-friendly размеры (ширина ≤ 1600px) и сжимайте PNG/JPG перед коммитом.
 - Если заменяете изображение, убедитесь, что оно не переиспользуется в других страницах (`rg -l filename.png`).
 

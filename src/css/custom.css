@@ -4,8 +4,6 @@
  * work well for content-centric websites.
  */
 
-@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0');
-
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #7eb81b;
@@ -49,6 +47,22 @@
   --docsearch-primary-color: var(--ifm-color-primary);
   --docsearch-text-color: var(--ifm-font-color-base);
   --docsearch-hit-color: var(--ifm-font-color-base);
+}
+
+body {
+  font-family: 'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif;
+}
+
+.introImage {
+  border-radius: 18px;
+  margin: 1rem 0 1.5rem;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.12);
+}
+
+.docImage {
+  border-radius: 14px;
+  margin: 0.75rem 0 1.25rem;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */

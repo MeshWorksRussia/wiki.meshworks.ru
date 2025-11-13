@@ -41,12 +41,54 @@ const config: Config = {
         ],
       }),
     },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'preconnect',
+        href: 'https://fonts.googleapis.com',
+      },
+    },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'preconnect',
+        href: 'https://fonts.gstatic.com',
+        crossOrigin: 'anonymous',
+      },
+    },
+    {
+      tagName: 'noscript',
+      attributes: {},
+      innerHTML:
+        '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"/>',
+    },
+    {
+      tagName: 'noscript',
+      attributes: {},
+      innerHTML:
+        '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0&display=swap"/>',
+    },
   ],
   future: {
     v4: true,
   },
   url: 'https://wiki.meshworks.ru',
   baseUrl: '/',
+  stylesheets: [
+    {
+      href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap',
+      rel: 'preload',
+      as: 'style',
+      onload: "this.onload=null;this.rel='stylesheet'",
+    },
+    {
+      href:
+        'https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0&display=swap',
+      rel: 'preload',
+      as: 'style',
+      onload: "this.onload=null;this.rel='stylesheet'",
+    },
+  ],
   organizationName: 'meshworks',
   projectName: 'wiki',
   onBrokenLinks: 'throw',

@@ -11,7 +11,7 @@ on:
 
 env:
   REMOTE_APP_DIR: /opt/compose/external/wiki/app
-  REMOTE_STACK: /opt/compose/stacks/stack-wiki.yml
+  REMOTE_WWW_DIR: /opt/compose/edge/nginx/www/wiki.meshworks
 
 permissions:
   contents: read
@@ -73,8 +73,14 @@ jobs:
             --exclude 'node_modules' \
             ./ wiki-prod:"$REMOTE_APP_DIR"/
 
-      - name: Restart service
-        run: ssh wiki-prod "cd /opt/compose && sudo ./scripts/bws-compose.sh --compose-args '-f $REMOTE_STACK up -d' wiki"
+      - name: Publish wiki build
+        run: |
+          ssh wiki-prod "sudo mkdir -p \"$REMOTE_WWW_DIR\" && sudo chown -R \$(whoami):\$(whoami) \"$REMOTE_WWW_DIR\""
+          rsync -az --delete ./build/ wiki-prod:"$REMOTE_WWW_DIR"/
+          ssh wiki-prod "sudo chown -R wiki-ci:wiki-ci \"$REMOTE_WWW_DIR\""
+
+      - name: Reload ingress nginx
+        run: ssh wiki-prod "sudo docker exec nginx-reverse-proxy nginx -s reload"
 
       - name: Smoke test
         run: |
