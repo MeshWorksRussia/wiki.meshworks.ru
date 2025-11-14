@@ -1,5 +1,6 @@
 ---
 title: USB-драйверы
+description: Сборник инструкций по установке USB‑драйверов для нод Meshtastic и проверке, что операционная система видит устройство.
 sidebar_label: USB-драйверы
 slug: /node-setup/serial-drivers
 ---
@@ -13,4 +14,3 @@ slug: /node-setup/serial-drivers
 - [Драйверы USB для ESP32](./esp32.md)
 - [Драйверы USB для nRF52/RP2040](./nrf52.md)
 - [Проверка установки драйверов](./test.md)
-
