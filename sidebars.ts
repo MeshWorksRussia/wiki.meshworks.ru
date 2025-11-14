@@ -45,6 +45,15 @@ const sidebars: SidebarsConfig = {
         'node-setup/firmware',
         'node-setup/configuration',
         'node-setup/roles',
+        {
+          type: 'category',
+          label: 'USB-драйверы',
+          items: [
+            'node-setup/serial-drivers/esp32',
+            'node-setup/serial-drivers/nrf52',
+            'node-setup/serial-drivers/test',
+          ],
+        },
         'node-setup/testing',
       ],
     },
