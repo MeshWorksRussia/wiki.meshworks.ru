@@ -1,6 +1,6 @@
 ---
 title: Проверка установки драйверов
-description: Пошаговая проверка установки USB‑драйверов для нод Meshtastic на Windows, Linux и macOS и типичные шаги при ошибках.
+description: "Пошаговая проверка установки USB‑драйверов для нод Meshtastic на Windows, Linux и macOS и типичные шаги при ошибках."
 sidebar_label: Проверка
 ---
 

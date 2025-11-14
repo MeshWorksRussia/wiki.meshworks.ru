@@ -1,6 +1,6 @@
 ---
 title: Драйверы USB для ESP32
-description: Установка USB‑UART драйверов для плат на ESP32 под Windows, Linux и macOS и проверка появления последовательного порта.
+description: "Установка USB‑UART драйверов для плат на ESP32 под Windows, Linux и macOS и проверка появления последовательного порта."
 sidebar_label: ESP32
 ---
 
