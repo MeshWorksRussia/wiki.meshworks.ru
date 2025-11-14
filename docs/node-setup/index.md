@@ -1,6 +1,7 @@
 ---
 slug: /node-setup
 title: Настройка ноды
+description: "Пошаговая настройка ноды Meshtastic: подготовка устройства, базовые параметры, роли и проверка работы сети."
 sidebar_label: Настройка ноды
 sidebar_position: 4
 breadcrumbs: ["База знаний Meshtastic", "Настройка ноды"]

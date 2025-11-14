@@ -1,5 +1,6 @@
 ---
 title: Проверка работы
+description: "Как проверить работоспособность ноды Meshtastic, связь с другими устройствами и использовать Traceroute для диагностики сети."
 sidebar_label: Проверка работы
 sidebar_position: 4
 breadcrumbs: ["База знаний Meshtastic", "Настройка ноды", "Проверка работы"]
