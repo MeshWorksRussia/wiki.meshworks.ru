@@ -57,16 +57,12 @@ body {
   border-radius: 18px;
   margin: 1rem 0 1.5rem;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.12);
-  width: 100%;
-  display: block;
 }
 
 .docImage {
   border-radius: 14px;
   margin: 0.75rem 0 1.25rem;
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
-  width: 100%;
-  display: block;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
