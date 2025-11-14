@@ -1,5 +1,8 @@
 {
   "label": "USB-драйверы",
-  "position": 50
+  "position": 1.5,
+  "link": {
+    "type": "generated-index",
+    "title": "USB-драйверы"
+  }
 }
-
